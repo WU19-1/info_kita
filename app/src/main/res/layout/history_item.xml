@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/history_background"
+    android:layout_marginTop="8dp"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginBottom="4dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/history_title"
+        android:text="Ini title"
+        android:paddingVertical="4dp"
+        android:paddingHorizontal="10dp"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="07 - 10 - 2020"
+        android:paddingVertical="4dp"
+        android:paddingHorizontal="10dp"
+        android:textAlignment="textEnd"
+        android:id="@+id/history_date"
+        />
+
+</LinearLayout>
